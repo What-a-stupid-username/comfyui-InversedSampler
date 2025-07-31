@@ -1,0 +1,23 @@
+[project]
+name = "comfyui_InversedSampler"
+description = "A inversed euler sampler to revert image to noisy latent. Can be used to improve content consistency when perform I2I."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = [
+]
+
+[project.urls]
+Repository = "https://github.com/What-a-stupid-username/comfyui-InversedSampler"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "what-a-stupid-username"
+DisplayName = "comfyui_InversedSampler"
+Icon = ""
+
+[tool.black]
+line-length = 120
+preview = true
+
+[tool.isort]
+profile = "black"
